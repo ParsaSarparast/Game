@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>بازی حدس کلمه</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="question" id="q">
+    </div>
+    <div class="input">
+        <div id="inpvval" class="value OnPlaceholder">
+            جواب را وارد کنید
+        </div>
+    </div>
+
+    <div id="keyboard">
+        <div class="timer" id="timer-wrapper">
+            <div class="time" id="time">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="box question_number">
+    <div class="box-header">
+        شماره سوال
+    </div>
+    <div class="box-body" id="question-number">
+        1
+    </div>
+</div>
+<div class="box timer-box">
+    <div class="box-header">
+        زمان
+    </div>
+    <div class="box-body" id="question-time">
+        99
+    </div>
+</div>
+<div class="box score-box">
+    <div class="box-header">
+        امتیاز
+    </div>
+    <div class="box-body" id="score">
+        0
+    </div>
+</div>
+<div id="end">
+
+</div>
+
+<audio src="script/back.mp3" autoplay loop>
+
+</audio>
+<script src="script/functions.js"></script>
+<script src="script/main.js"></script>
+<script src="script/maneger.js"></script>
+</body>
+</html>
