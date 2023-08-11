@@ -156,6 +156,7 @@ button {
     padding-bottom: 50px;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
@@ -167,6 +168,7 @@ button {
     background: #fcb130;
     border-radius: 5px;
     box-shadow: 0px 3px 0px 3px #c48c27;
+    cursor: pointer;
 }
 
 .letter:hover {

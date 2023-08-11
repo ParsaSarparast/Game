@@ -160,7 +160,7 @@ function nextQuestionGenerator() {
         console.log('agfe');
         document.getElementById('end').innerHTML += `<div class="endGame">
     <div>
-        بازی تمام شد
+        اتمام مرحله اول
     </div>
 </div>`;
         return
