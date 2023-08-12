@@ -119,7 +119,7 @@ function updateForm() {
         inputValue.classList.remove('OnPlaceholder');
         inputValue.innerHTML = typed.join('');
     } else {
-        inputValue.innerHTML = 'متن را وارد کنید';
+        inputValue.innerHTML = 'جواب را وارد کنید';
         inputValue.classList.add('OnPlaceholder');
     }
 }

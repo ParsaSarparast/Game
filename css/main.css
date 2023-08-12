@@ -116,6 +116,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: tisaregular;
+    src: url(../Fonts/Tisa\ Sans\ Pro\ Regular.ttf);
+}
+@font-face {
+    font-family: tisabold;
+    src: url(../Fonts/Tisa\ Sans\ Pro\ Bold.ttf);
+}
 
 
 *, *::after, *::before {
@@ -171,6 +179,8 @@ button {
     box-shadow: 0px 3px 0px 3px #c48c27;
     cursor: pointer;
     border-radius: 20px;
+    font-family: tisabold;
+    font-size: 18px;
 }
 
 .letter:hover {
@@ -203,7 +213,8 @@ button {
     display: flex;
     align-items: center;
     padding-right: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    
 }
 
 .OnPlaceholder {
