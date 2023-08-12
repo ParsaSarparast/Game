@@ -220,6 +220,8 @@ button {
     align-items: center;
     padding-right: 10px;
     border-radius: 10px;
+    font-family: yekan;
+    font-size: 18px;
     
 }
 
@@ -271,12 +273,16 @@ button {
     position: absolute;
     top: 20px;
     left: 20px;
+    font-family: yekan;
+    font-weight: bold;
 }
 
 .timer-box {
     position: absolute;
     top: 20px;
     right: 20px;
+    font-family: yekan;
+    font-weight: bold;
 }
 
 .score-box {
@@ -284,6 +290,8 @@ button {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+    font-family: yekan;
+    font-weight: bold;
 }
 
 
