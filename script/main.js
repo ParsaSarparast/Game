@@ -1,11 +1,11 @@
 let game = new Game([
     {
-        title: "بزرگ ترین سیاره منظومه شمسی",
-        ans: 'مشتری',
+        title: "مایع حیات؟",
+        ans: 'اب',
         time: 45,
         score: 10
     }, {
-        title: "تنها قمر طبیعی سیاره زمین",
+        title: "تنها قمر طبیعی سیاره زمین؟",
         ans: 'ماه',
         time: 45,
         score: 10
@@ -15,8 +15,8 @@ let game = new Game([
         time: 45,
         score: 10
     },{
-        title: "مایع حیات؟",
-        ans: 'اب',
+        title: "بزرگ ترین سیاره منظومه شمسی؟",
+        ans: 'مشتری',
         time: 45,
         score: 10
     },{
